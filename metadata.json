@@ -1,0 +1,6 @@
+{
+  "name": "NEET PREP OS",
+  "description": "Personal offline NEET preparation operating system with routine, pomodoro, syllabus tracking, mistake book, and home screen widget.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
