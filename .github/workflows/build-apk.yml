@@ -17,12 +17,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-          -name: Setup Android SDK
-      
       - name: Setup Android SDK
         uses: android-actions/setup-android@v4
         with:
           packages: platform-tools
+
       - name: Make Gradle executable
         run: chmod +x ./gradlew
 
